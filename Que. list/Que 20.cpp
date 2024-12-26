@@ -49,7 +49,7 @@ int findDifferent(int arr[], int size){
        else  if (arr[i] < minElement) { 
             minElement = arr[i];
         }
-    }
+    } 
     return maxElement - minElement;
     
     
